@@ -1,0 +1,176 @@
+{
+	"id": "9a4a1b12-b142-401d-b4f6-5b54890001b4",
+	"name": "HW_1_Postman",
+	"timestamp": "2023-03-07T04:44:58.506Z",
+	"collection_id": "25563195-e52864e8-ac4c-4c51-b83f-a78d8bcfd65d",
+	"folder_id": 0,
+	"environment_id": "25563195-b6c97db6-de53-4696-a0e5-007d363ba084",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-03-07T04:44:56.634Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "fed61a7c-9ef4-4328-bff2-a7d5b9fda45d",
+			"name": "/get_method",
+			"url": "http://162.55.220.72:5005/get_method?name=Nastya&age=29",
+			"time": 122,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				122
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c65884e9-2419-4b3a-ba22-7ca1a3bb0c29",
+			"name": "/user_info_3",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				90
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "20be2832-d79a-44be-951e-395bfd9fe062",
+			"name": "/user_info_2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 88,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				88
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4fedd6ad-1ac2-4f26-8970-7591904f454b",
+			"name": "/object_info_1",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Nastya&age=29&weight=60",
+			"time": 94,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				94
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a180a4ae-b159-40d5-b4f9-4959bedcc336",
+			"name": "/object_info_2",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Nastya&age=29&salary=500",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				81
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "100935ff-1b1d-40ce-88c5-e6cca2e045e8",
+			"name": "/object_info_3",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Nastya&age=29&salary=350",
+			"time": 102,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				102
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "076d2134-da5c-436d-9c93-7340aad1d348",
+			"name": "/object_info_4",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Nastya&age=29&salary=350",
+			"time": 111,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				111
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 688,
+	"collection": {
+		"requests": [
+			{
+				"id": "fed61a7c-9ef4-4328-bff2-a7d5b9fda45d",
+				"method": "GET"
+			},
+			{
+				"id": "c65884e9-2419-4b3a-ba22-7ca1a3bb0c29",
+				"method": "POST"
+			},
+			{
+				"id": "20be2832-d79a-44be-951e-395bfd9fe062",
+				"method": "POST"
+			},
+			{
+				"id": "4fedd6ad-1ac2-4f26-8970-7591904f454b",
+				"method": "GET"
+			},
+			{
+				"id": "a180a4ae-b159-40d5-b4f9-4959bedcc336",
+				"method": "GET"
+			},
+			{
+				"id": "100935ff-1b1d-40ce-88c5-e6cca2e045e8",
+				"method": "GET"
+			},
+			{
+				"id": "076d2134-da5c-436d-9c93-7340aad1d348",
+				"method": "GET"
+			}
+		]
+	}
+}
