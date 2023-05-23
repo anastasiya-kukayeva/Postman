@@ -1,0 +1,236 @@
+{
+	"id": "acf8ab5c-7f8b-40d8-b4b1-024193097ced",
+	"name": "HW_2 Postman",
+	"timestamp": "2023-03-14T19:00:12.318Z",
+	"collection_id": "25563195-9913c69a-9ba6-442f-b49e-0d6eb410a026",
+	"folder_id": 0,
+	"environment_id": "25563195-b6c97db6-de53-4696-a0e5-007d363ba084",
+	"totalPass": 22,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-03-14T19:00:10.310Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "93ec1747-7745-4007-87e7-db09e70f477e",
+			"name": "first",
+			"url": "http://162.55.220.72:5005/first",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				81
+			],
+			"allTests": [
+				{
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "8534c43c-4c26-4165-b305-de1eac5b0877",
+			"name": "user_info_3",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 93,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Req_Resp_NAME_check": true,
+				"Req_Resp_AGE_check": true,
+				"Req_Resp_SALARY_check": true,
+				"u_salary_1_5_year_check": true
+			},
+			"testPassFailCounts": {
+				"Req_Resp_NAME_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_Resp_AGE_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_Resp_SALARY_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"u_salary_1_5_year_check": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				93
+			],
+			"allTests": [
+				{
+					"Req_Resp_NAME_check": true,
+					"Req_Resp_AGE_check": true,
+					"Req_Resp_SALARY_check": true,
+					"u_salary_1_5_year_check": true
+				}
+			]
+		},
+		{
+			"id": "5f4f9b09-2d4b-4b2c-b7db-f9e7c8cdebd8",
+			"name": "object_info_3",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Nastya&age=29&salary=500",
+			"time": 99,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Req_Resp_NAME_check": true,
+				"Req_Resp_AGE_check": true,
+				"Req_Resp_SALARY_check": true,
+				"Dog_have_name": true,
+				"Dog_have_age": true,
+				"Dog_have_name_Luky": true,
+				"Dog_have_age_4": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_Resp_NAME_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_Resp_AGE_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_Resp_SALARY_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dog_have_name": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dog_have_age": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dog_have_name_Luky": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Dog_have_age_4": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				99
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Req_Resp_NAME_check": true,
+					"Req_Resp_AGE_check": true,
+					"Req_Resp_SALARY_check": true,
+					"Dog_have_name": true,
+					"Dog_have_age": true,
+					"Dog_have_name_Luky": true,
+					"Dog_have_age_4": true
+				}
+			]
+		},
+		{
+			"id": "446e7196-bf5f-430d-9322-9de3fc4aa012",
+			"name": "object_info_4",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Nastya&age=29&salary=500",
+			"time": 105,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Req_Resp_NAME_check": true,
+				"Req_Resp_AGE_check": true,
+				"SALARY_0_check": true,
+				"SALARY_1_check": true,
+				"SALARY_2_check": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_Resp_NAME_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_Resp_AGE_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"SALARY_0_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"SALARY_1_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"SALARY_2_check": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				105
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Req_Resp_NAME_check": true,
+					"Req_Resp_AGE_check": true,
+					"SALARY_0_check": true,
+					"SALARY_1_check": true,
+					"SALARY_2_check": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 378,
+	"collection": {
+		"requests": [
+			{
+				"id": "93ec1747-7745-4007-87e7-db09e70f477e",
+				"method": "GET"
+			},
+			{
+				"id": "8534c43c-4c26-4165-b305-de1eac5b0877",
+				"method": "POST"
+			},
+			{
+				"id": "5f4f9b09-2d4b-4b2c-b7db-f9e7c8cdebd8",
+				"method": "GET"
+			},
+			{
+				"id": "446e7196-bf5f-430d-9322-9de3fc4aa012",
+				"method": "GET"
+			}
+		]
+	}
+}
