@@ -1,0 +1,256 @@
+{
+	"id": "9440a09c-9e08-4a90-b816-42963530bd54",
+	"name": "HW_3_Postman",
+	"timestamp": "2023-05-26T06:25:44.931Z",
+	"collection_id": "25563195-06265d59-97a6-42f3-8a37-9b64de2d1d79",
+	"folder_id": 0,
+	"environment_id": "25563195-b6c97db6-de53-4696-a0e5-007d363ba084",
+	"totalPass": 15,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-26T06:25:43.039Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "e92a36c0-b65b-4471-9106-3e1b745417f3",
+			"name": "login",
+			"url": "http://162.55.220.72:5005/login",
+			"time": 83,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				83
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "942198a3-524e-4456-a990-77f3bd35ee4e",
+			"name": "user_info",
+			"url": "http://162.55.220.72:5005/user_info",
+			"time": 89,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Test data type of the response": true,
+				"Schema is valid": true,
+				"coefficient_check": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test data type of the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"coefficient_check": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				89
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Test data type of the response": true,
+					"Schema is valid": true,
+					"coefficient_check": true
+				}
+			]
+		},
+		{
+			"id": "bd1726eb-f1fd-4b9b-aea3-94b871425e4f",
+			"name": "new_data",
+			"url": "http://162.55.220.72:5005/new_data",
+			"time": 96,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"coefficient_2_check": true,
+				"coefficient_3_check": true,
+				"arr_check": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"coefficient_2_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"coefficient_3_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"arr_check": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				96
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"coefficient_2_check": true,
+					"coefficient_3_check": true,
+					"arr_check": true
+				}
+			]
+		},
+		{
+			"id": "10365bdf-ce30-4d2b-b628-93e0e6461cdf",
+			"name": "get_test_user",
+			"url": "http://162.55.220.72:5005/get_test_user",
+			"time": 98,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true,
+				"Req_Resp_NAME_check": true,
+				"Req_Resp_AGE_check": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_Resp_NAME_check": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Req_Resp_AGE_check": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				98
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true,
+					"Req_Resp_NAME_check": true,
+					"Req_Resp_AGE_check": true
+				}
+			]
+		},
+		{
+			"id": "d16d24d7-b03c-4978-ae3a-397b3c21dbd8",
+			"name": "test_pet_info",
+			"url": "http://162.55.220.72:5005/test_pet_info",
+			"time": 111,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Schema is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				111
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "cbecf60f-6f5a-4d4c-9b5a-806c00da650c",
+			"name": "currency",
+			"url": "http://54.157.99.22:80/currency",
+			"time": 140,
+			"responseCode": {
+				"code": 401,
+				"name": "UNAUTHORIZED"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				140
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 617,
+	"collection": {
+		"requests": [
+			{
+				"id": "e92a36c0-b65b-4471-9106-3e1b745417f3",
+				"method": "POST"
+			},
+			{
+				"id": "942198a3-524e-4456-a990-77f3bd35ee4e",
+				"method": "POST"
+			},
+			{
+				"id": "bd1726eb-f1fd-4b9b-aea3-94b871425e4f",
+				"method": "POST"
+			},
+			{
+				"id": "10365bdf-ce30-4d2b-b628-93e0e6461cdf",
+				"method": "POST"
+			},
+			{
+				"id": "d16d24d7-b03c-4978-ae3a-397b3c21dbd8",
+				"method": "POST"
+			},
+			{
+				"id": "cbecf60f-6f5a-4d4c-9b5a-806c00da650c",
+				"method": "POST"
+			}
+		]
+	}
+}
