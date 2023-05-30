@@ -222,3 +222,38 @@ pm.environment.get("weight");
 console.log("Req_weight =", +req_weight);
 console.log("Resp_weight =", resp_weight)
 // });
+
+// Тесты:
+
+pm.environment.set("auth_token", "/s34lfgbj/Nastya/jjd909/50285kjkWpqc8121235N123584575evny");
+
+// 1) Можете взять любой объект из присланного списка, используйте js random.
+// // В объекте возьмите Cur_ID и передать через окружение в следующий запрос.
+
+var resp = pm.response.json();
+var objRandom = resp[Math.floor(Math.random() * resp.length)];
+
+pm.environment.set("Cur_ID", objRandom.Cur_ID);
+console.log(objRandom);
+
+// Тесты:
+// 1) Статус код 200
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+// 2) Проверка структуры json в ответе.
+
+var data = pm.response.json();
+var schema = {
+    "Cur_Abbreviation": "string",
+    "Cur_ID": "number",
+    "Cur_Name": "string",
+    "Cur_OfficialRate": "number",
+    "Cur_Scale": "number",
+    "Date": "string"
+};
+
+pm.test('Schema is valid', function () {
+    pm.expect(tv4.validate(data, schema)).to.be.true;
+});
